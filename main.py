@@ -91,32 +91,32 @@ class Checker(httpx.Client):
                         "IsUnusual": "0",
                         "UnusualInfo": "",
                         "IsTouch": "0",
-		                "QRCodeColor": "绿色" ,
+		        "QRCodeColor": "绿色" ,
                         "IsInsulated": "0",
                         "IsSuspected": "0",
                         "IsDiagnosis": "0",
-			            "tripinfolist": [{
+			"tripinfolist": [{
                     		"aTripDate": "",
                     		"FromAdr": "",
                     		"ToAdr": "",
                     		"Number": "",
                     		"trippersoninfolist": []
-                	    }],
-			            "toucherinfolist": [],
-			            "dailyinfo": {
+                	}],
+			"toucherinfolist": [],
+			"dailyinfo": {
                     		"IsVia": "0",
                     		"DateTrip": ""
-                	    },
-			            "IsInCampus": "1",
-                	    "IsViaHuBei": "0",
-                	    "IsViaWuHan": "0",
-			            "InsulatedAddress": "",
-                	    "TouchInfo": "",
-			            "IsNormalTemperature": "1",
+                	},
+			"IsInCampus": "1",
+                	"IsViaHuBei": "0",
+                	"IsViaWuHan": "0",
+			"InsulatedAddress": "",
+                	"TouchInfo": "",
+			"IsNormalTemperature": "1",
                         # "BackState": 1,
                         # "MorningTemp": f'36.{randint(*interval)}',
                         # "NightTemp": f'36.{randint(*interval)}',
-			            "Longitude": None,
+			"Longitude": None,
                         "Latitude": None
                     }
                 ).json()['msg']
